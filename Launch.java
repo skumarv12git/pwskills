@@ -3,6 +3,6 @@ class launch{
 		//some code
 	}
 	void m2(){
-		//some code
+		SOP('cloned statement');
 	}
 }
