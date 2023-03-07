@@ -1,0 +1,26 @@
+1. What is Git
+Ans: GIT is a distributed version control system which is very popular in the world for storing and managing the project code
+
+2. What do you understand by the term 'Version Control System'?
+Ans: Version Control System is nothing but managing every code change with a version id. Maintaining the history of code changes done in a project
+
+3. What is GitHub?
+Ans: GitHub is one of the Git Servers in the market. It is used to manage the project code of any project.
+
+4. Mention some popular Git hosting services.
+Ans: GitHub, Gitlab, Bucket, Gitblit etc
+
+5. Different types of Version Control Systems
+Ans: Centralized and Distributed
+
+6. What benefits come with using Git?
+Ans: 
+    a)Using Git, creates 3 stages in our local directory. Working Area, Staging Area and Local Repository. This feature is not available in CVS
+    b) We do not require continuous networking/internet to work with Github. Any time in a day, we can PULL from Github repository and can keep the copy in our local repository Git provides
+	c) If the remote Git repository crashes, multiple local repository of developers would have the copy of the project code from the main Git repository
+	
+7. What is Git repository?
+Ans: Git repository is the main remote repository hosted remotely where all the developers' code is pushed into and any developer associated with the project can pull the code from this repository.
+
+8. How can you initialize a repository in Git?
+Ans: Using the command $ git init in Git Bash.
