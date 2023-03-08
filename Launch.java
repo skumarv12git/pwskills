@@ -5,4 +5,7 @@ class launch{
 	void m2(){
 		SOP('cloned statement');
 	}
+	void methodOfDev2(){
+		SOP('methodOfDev2');
+	}
 }
