@@ -1,0 +1,36 @@
+Git and GitHub Assignment Part 2
+
+1. How to check if git is available on your system?
+Ans: 1. run windows command as git --version. If any version is returned, then git is available in our system.
+	 2. Do a windows search and check if Git Bash, Git CMD, Git GUI softwares are available
+     
+2. How to initialize a new Git repository?
+Ans: run command in git bash : $ git init
+
+3. How to tell git about your name and email?
+Ans: We need to run the below commands
+	 $ git config user.name "<username>"
+     $ git config user.email "<useremail>"
+
+4. How to add a file to the staging area?
+Ans: We need to run either of the below commands: 
+     $ git add <filename.extension>
+	 $ git add . (if we want to add all the files from working area to staging area)
+	 
+5. How to remove a file from staging area?
+Ans: run command: $ git -rm --cached <filename.extension>
+
+6. How to make a commit?
+Ans: run command: $ git commit -m "message explaining the purpose of the commit"
+
+7. How to send your changes to a remote repository?
+Ans: 
+1. Need to move from working area to Staging area through command: $ git add <filename.extension>
+2. Need to commit the file from staging area to local repository through command: $ git commit -m "message explaining the purpose of the commit"
+3. Need to switch to main branch using command: $ git branch -m main
+4. Need to add the origin using command: $ git remote add origin <git-repository-url>
+5. Need to push the changes to remote repository using command: $ git push -u origin main
+
+8. What is the difference between clone and pull?
+Ans: Clone is about getting the complete copy of the repository into our local machine
+     Pull is about updating our local repository with the latest from remote repository
