@@ -1,0 +1,37 @@
+Fundamentals of Java -  Assignment
+
+1. What is Programming Language?
+Ans: Programming Language is a way of giving instructions to the processor to perform tasks. Since humans need to write these instructions, we need human readable/writable way of writing these instructions to the processor. So, the programming languages like C, C++, Java were introduced so the humans can write code in such a way that it can be compiled by a compiler which converts high language language to byte code and subsequently this byte code is converted into Machine Level Code. This Machine Level Language which is nothing but 0s and 1s are being understood by the processor which then performs the desired tasks and provide necessary output.
+
+2. Why do we need a Programming Language?
+Ans: We need Programming Language in order to write human understandable code to perform some tasks. If code is written syntactically and logically and converted into Machine Level Language, the processor would eventually run the desired tasks.
+
+3. What are the features of Java?
+   a) Java is an Object Oriented Programming.
+   b) We can write human understandable code in Java
+   c) Any real world item can be considered as an object.
+   d) Java is platform independent. Byte code of Java file can be run across any operating systems.
+   e) Each Java object consists of properties(what object has) and behavior(what object does).
+   f) Easy to write and read language.
+   g) JVM used in Java is platform dependent. Means, each operating system would have its own specific JVM.
+   h) Java compiler compiles the Java source code (.java) into byte code and can be transferred over the network and is secure.
+
+4. What is an Object?
+Ans: Object is a representation of any item around us. Ex: Car, Building, Phone, Bottle. Object consists of its properties and behaviors.
+
+5. What is a class?
+Ans: Class is a blue print of any object. It consists of properties (variables) and behaviors (methods) of any object.
+
+6. Explain about the main() method in Java?
+Ans: main method looks like below
+	 public static void main (String args[]){
+	 
+	 }
+	 a) main method name must and should be "main" only. It is as per design.
+	 b) main method must be always public since JVM accesses it.
+	 c) main method must be static because JVM must call this method without creating instance of this method's class.
+	 d) return type of main method must be void, since this method does not return any data.
+	 e) arguments String args[] is used to capture or read any command line String arguments. Ex: java Launch Command Message. Here Command and Message are the String arguments send from command line to the main method. Even though we do not send any command line arguments, we must define String args[] in the signature of main method.
+	 g) main method is the starting point of any Java application.
+	 
+
