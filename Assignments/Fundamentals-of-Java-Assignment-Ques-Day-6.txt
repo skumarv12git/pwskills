@@ -1,4 +1,4 @@
-Fundamentals of Java -  Assignment
+Fundamentals-of-Java-Assignment-Ques-Day-6
 
 1. What is Programming Language?
 Ans: Programming Language is a way of giving instructions to the processor to perform tasks. Since humans need to write these instructions, we need human readable/writable way of writing these instructions to the processor. So, the programming languages like C, C++, Java were introduced so the humans can write code in such a way that it can be compiled by a compiler which converts high language language to byte code and subsequently this byte code is converted into Machine Level Code. This Machine Level Language which is nothing but 0s and 1s are being understood by the processor which then performs the desired tasks and provide necessary output.
